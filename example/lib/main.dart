@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  await FastCachedImageConfig.init(clearCacheAfter: const Duration(days: 15));
+  // await FastCachedImageConfig.init(clearCacheAfter: const Duration(days: 15));
 
   runApp(const MyApp());
 }
